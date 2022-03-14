@@ -10,6 +10,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:orientation="horizontal">
 
         <LinearLayout
@@ -19,7 +20,7 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView"
+                android:id="@+id/textView1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -31,7 +32,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="textPersonName" />
+                android:focusable="false"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
             <EditText
                 android:id="@+id/edTxt_iBKS105_A_distance"
@@ -39,7 +41,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="numberDecimal" />
+                android:inputType="numberDecimal"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
         </LinearLayout>
 
         <LinearLayout
@@ -60,8 +63,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:focusable="false"
                 android:ems="10"
-                android:inputType="textPersonName" />
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
             <EditText
                 android:id="@+id/edTxt_iBKS105_B_distance"
@@ -69,7 +73,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="numberDecimal" />
+                android:inputType="numberDecimal"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
         </LinearLayout>
 
         <LinearLayout
@@ -90,8 +95,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:focusable="false"
                 android:ems="10"
-                android:inputType="textPersonName" />
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
             <EditText
                 android:id="@+id/edTxt_iBKS105_C_distance"
@@ -99,7 +105,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="numberDecimal" />
+                android:inputType="numberDecimal"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
         </LinearLayout>
 
         <LinearLayout
@@ -120,8 +127,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:focusable="false"
                 android:ems="10"
-                android:inputType="textPersonName" />
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
             <EditText
                 android:id="@+id/edTxt_iBKS105_D_distance"
@@ -129,7 +137,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="numberDecimal" />
+                android:inputType="numberDecimal"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
         </LinearLayout>
 
         <LinearLayout
@@ -150,8 +159,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:focusable="false"
                 android:ems="10"
-                android:inputType="textPersonName" />
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
             <EditText
                 android:id="@+id/edTxt_iBKS105_E_distance"
@@ -159,7 +169,183 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="numberDecimal" />
+                android:inputType="numberDecimal"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="iBKS105_F" />
+
+            <EditText
+                android:id="@+id/edTxt_iBKS105_F_RSSI"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:ems="10"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"
+                android:autofillHints="" />
+
+            <EditText
+                android:id="@+id/edTxt_iBKS105_F_distance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"
+                android:importantForAutofill="no" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="iBKS105_G" />
+
+            <EditText
+                android:id="@+id/edTxt_iBKS105_G_RSSI"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:ems="10"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            <EditText
+                android:id="@+id/edTxt_iBKS105_G_distance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="iBKS105_H" />
+
+            <EditText
+                android:id="@+id/edTxt_iBKS105_H_RSSI"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:ems="10"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/edTxt_iBKS105_H_distance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"
+                android:autofillHints="" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="iBKS105_I" />
+
+            <EditText
+                android:id="@+id/edTxt_iBKS105_I_RSSI"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:ems="10"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            <EditText
+                android:id="@+id/edTxt_iBKS105_I_distance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"
+                android:autofillHints="" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="iBKS105_J" />
+
+            <EditText
+                android:id="@+id/edTxt_iBKS105_J_RSSI"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:ems="10"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"
+                android:autofillHints="" />
+
+            <EditText
+                android:id="@+id/edTxt_iBKS105_J_distance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"
+                android:autofillHints="" />
         </LinearLayout>
 
     </LinearLayout>
@@ -168,5 +354,12 @@
         android:id="@+id/btn_save"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:text="Save" />
+
+    <Button
+        android:id="@+id/btn_clr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear" />
 </LinearLayout>

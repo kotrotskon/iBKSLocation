@@ -17,11 +17,21 @@ public class SQLliteHelper extends SQLiteOpenHelper {
     public static final String COLUMN_RSSI_C = "rssi_c";
     public static final String COLUMN_RSSI_D = "rssi_d";
     public static final String COLUMN_RSSI_E = "rssi_e";
+    public static final String COLUMN_RSSI_F = "rssi_f";
+    public static final String COLUMN_RSSI_G = "rssi_g";
+    public static final String COLUMN_RSSI_H = "rssi_h";
+    public static final String COLUMN_RSSI_I = "rssi_i";
+    public static final String COLUMN_RSSI_J = "rssi_j";
     public static final String COLUMN_DISTANCE_A = "distance_a";
     public static final String COLUMN_DISTANCE_B = "distance_b";
     public static final String COLUMN_DISTANCE_C = "distance_c";
     public static final String COLUMN_DISTANCE_D = "distance_d";
     public static final String COLUMN_DISTANCE_E = "distance_e";
+    public static final String COLUMN_DISTANCE_F = "distance_f";
+    public static final String COLUMN_DISTANCE_G = "distance_g";
+    public static final String COLUMN_DISTANCE_H = "distance_h";
+    public static final String COLUMN_DISTANCE_I = "distance_i";
+    public static final String COLUMN_DISTANCE_J = "distance_j";
     public static final String COLUMN_TIMESTAMP = "timestamp";
 
     private static final String DATABASE_CREATE_MEASUREMENTS = "create table "
@@ -31,11 +41,21 @@ public class SQLliteHelper extends SQLiteOpenHelper {
             + COLUMN_RSSI_C  + " integer not null,"
             + COLUMN_RSSI_D  + " integer not null,"
             + COLUMN_RSSI_E  + " integer not null,"
+            + COLUMN_RSSI_F  + " integer not null,"
+            + COLUMN_RSSI_G  + " integer not null,"
+            + COLUMN_RSSI_H  + " integer not null,"
+            + COLUMN_RSSI_I  + " integer not null,"
+            + COLUMN_RSSI_J  + " integer not null,"
             + COLUMN_DISTANCE_A + " real not null,"
             + COLUMN_DISTANCE_B + " real not null,"
             + COLUMN_DISTANCE_C + " real not null,"
             + COLUMN_DISTANCE_D + " real not null,"
             + COLUMN_DISTANCE_E + " real not null,"
+            + COLUMN_DISTANCE_F + " real not null,"
+            + COLUMN_DISTANCE_G + " real not null,"
+            + COLUMN_DISTANCE_H + " real not null,"
+            + COLUMN_DISTANCE_I + " real not null,"
+            + COLUMN_DISTANCE_J + " real not null,"
             + COLUMN_TIMESTAMP + " text not null);";
 
 
